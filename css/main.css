@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "op-sans-bold";
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: "lobster";
+    src: url(../assets/fonts/Lobster-Regular.ttf);
+}
+@font-face{
+    font-family: "comic";
+    src: url(../assets/fonts/ComicNeue-Regular.ttf);
+}
+
+
+
+:root {
+    --yellow: #fad633;
+    --black: #252525;
+}
+
+body {
+    margin: 0;
+    background: #66ff9480;
+    color: #fff;
+    font-size: 20px;
+    font-family: "op-sans-bold";
+    overflow-x: hidden;
+}
+
+.mom1 {
+    height: 90%;
+    width: 35%;
+    position: absolute; 
+    bottom: 0;
+    right: -3%;
+    
+}
+
+.hello {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    font-size: 60px;
+    color: rgb(16, 233, 222);
+    font-family: arial;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+}
+
+.love {
+    position: absolute;
+    left: 8%;
+    top: -5%;
+    font-family: "lobster";
+    color: rgb(253, 253, 251);
+    opacity: 0.9;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.love-text {
+    font-size: 150px;
+}
+
+.love-name {
+    font-size: 230px;
+}
+
+.intro {
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 5px;
+}
+
+.name {
+    font-size: 60px;
+    color: #bb3dbba9;
+}
+
+.name::first-letter {
+    font-size: 280px;
+}
+
+.me {
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    font-size: 70px;
+    font-family: "comic";
+}
+
+.desc {
+    font-size: 60px;
+    font-family: "lobster";
+    text-align: center;
+}
+
+.card-btn {
+    top: 120%;
+	display: block;
+	padding: 10px 15px;
+    width: 20%;
+	margin: 0 auto;
+	margin-top: 410px;	
+	border-radius: 50px;
+	background-color: rgba(207, 203, 201, 0.925);
+	border: 2px solid #eb1c22;
+	color: #eb1c22;
+	font-size: 18px;
+	cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration-color: #fff;
+    }
+
+    .card-btn:hover {
+        background-color: #eb1c22;
+        color: #fff;
+        box-shadow: 0px 3px 6px 4px rgba(0, 0, 0, 0.4);
+    }    
